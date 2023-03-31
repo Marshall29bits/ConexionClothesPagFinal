@@ -1,0 +1,36 @@
+.sectionProductosIndex{
+    display: flex;
+    flex-wrap: wrap;/*Cuando los elementos ocupen todo el espacio disponible pasamos a la siguiente columna*/
+    background-color: white;
+}
+
+.productosIndex{
+    display: flex;
+    flex-direction: column; /*Texto e icono lo posicionamos en vertical*/
+    margin-bottom: 2.5rem; /*Separacion 1bloque con el 2bloque*/
+    width: calc(25% - 5rem);/*Tomamos el espaciado sobrande y los calculamos para no dejar espacio*/
+}
+
+.imgProductosIndex{
+    height: 500px;
+}
+
+.productosContenidoIndex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloProductosIndex{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.precioProductosIndex{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.imgProductosIndex:hover{
+    opacity: 50%;
+}

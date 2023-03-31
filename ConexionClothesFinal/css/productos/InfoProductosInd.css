@@ -1,0 +1,118 @@
+.prueba {
+    border: 10px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+
+.tituloProducto {
+    font-size: 2em;
+    text-align: center;
+    background: rgb(79, 128, 106);
+    color: white;
+}
+
+.detallesiz {
+    width: 400px;
+    height: 400px;
+    padding-top: 170px;
+    padding-left: 140px;
+    padding-right: 20px;
+}
+
+.detallesiz p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+
+.imagen-centro-edit {
+    width: 550px;
+    height: 450px;
+}
+
+.carrusel2 {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    flex: initial;
+    display: block;
+    margin-right: 90px;
+    margin-top: 90px;
+}
+
+.carrusel2::-webkit-scrollbar {
+    width: 2px;
+}
+
+.carrusel2::-webkit-scrollbar-track {
+    background: white;
+}
+
+.carrusel2::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+.img-carrusel {
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 550px;
+    height: 450px;
+    justify-content: space-around;
+}
+
+
+
+.img-carrusel-indi {
+    width: 630px;
+    height: 900px;
+    padding: 110px
+}
+
+.imgagen-centro {
+    display: flex;
+    margin: 0%;
+    padding: 0px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.detalleder {
+    width: 400px;
+    height: 400px;
+    padding-top: 300px;
+    padding-right: 90px;
+}
+
+.detalleder p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.caja-lista {
+    width: 200px;
+    display: flex;
+
+}
+
+.boton-tam {
+    cursor: pointer;
+    font-family: inherit;
+    border-color: white;
+    background-color: white;
+    appearance: none;
+    color: inherit;
+    border: none;
+    outline: 0;
+}
+
+.boton-tam:hover {
+    background-color: silver;
+}

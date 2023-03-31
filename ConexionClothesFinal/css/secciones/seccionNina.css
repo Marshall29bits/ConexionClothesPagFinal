@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+}
+
+body p {
+    color: gray;
+    text-align: center;
+
+}
+
+.titulo {
+    margin: 60px;
+}
+
+.submenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.editofer {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.editofer:hover {
+    color: gray;
+}
+
+.editofer:active {
+    color: #FFD700;
+}
+
+.titulo p {
+    color: wheat;
+}
+
+.row1flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    flex-flow: row wrap;
+}
+
+.banner {
+    display: flex;
+    margin: 0%;
+    padding: 0px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.imgbanner {
+    width: 500px;
+    height: 800px;
+    margin-bottom: 40px;
+    object-fit: fill;
+
+
+}
+
+.img1 {
+    margin-bottom: 40px;
+}
+
+.img1 p {
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.sub {
+    font-size: 10px;
+
+}
+
+.sub2 {
+    color: white;
+}
+
+.img2 {
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+.row2flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    flex-flow: row wrap;
+}
+
+.carrito {
+    height: 70px;
+    width: 70px;
+}
+
+.flexcarrito {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.editbanner {
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+
+
+}
+
+.carrusel {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+
+}
+
+.carrusel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carrusel::-webkit-scrollbar-track {
+    background: black;
+}
+
+.carrusel::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+.imagen {
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 600px;
+    height: 350px;
+}
+
+.edit {
+    width: 600px;
+    height: 350px;
+}

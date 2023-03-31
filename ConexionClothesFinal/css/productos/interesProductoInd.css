@@ -1,0 +1,46 @@
+.interes {
+    border: 10px solid red;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.prod {
+    width: 100%;
+    margin-bottom: 40px;
+    padding-right: 30px
+}
+
+.cam-interes {
+    height: 100%;
+    width: 100%;
+}
+
+.int-text {
+    margin-left: 40px;
+    font-size: 1em;
+    color: gray;
+}
+
+.cam-interes:hover {
+    opacity: 60%;
+}
+
+.carrito-button {
+    height: 30px;
+    cursor: pointer;
+}
